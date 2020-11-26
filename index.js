@@ -3,6 +3,7 @@ let dodger = document.getElementById("dodger");
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
+  console.log(dodger.style.right);
   
  
   if (left > 0) {
